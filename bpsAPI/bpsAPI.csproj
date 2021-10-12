@@ -24,5 +24,9 @@
     <ProjectReference Include="..\bpsAPISrv\bpsAPISrv.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="_images\" />
+  </ItemGroup>
+
 
 </Project>
