@@ -20,9 +20,9 @@ URL: <u>https://(ipaddress):(port)/api/Accounts/GenerateAccount</u> <br>
 This service will insert an account in the sample payment API.<br>
 Sample REQUEST JSON String: <br>
 {
-  "acctnumber":"001",
+  "acctnumber":100,
   "acctname":"Juan Dela Cruz",
-  "acctbalance":"1500"
+  "acctbalance":1500
 }
 
 Sample RESPONSE JSON String: <br>
