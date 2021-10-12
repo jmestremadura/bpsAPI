@@ -27,6 +27,7 @@ Sample REQUEST JSON String: <br>
 
 Sample RESPONSE JSON String: <br>
 {
+    "isValid":true,
     "erR_CODE": "000",
     "erR_MSG": ""
 }
@@ -45,6 +46,7 @@ Sample REQUEST JSON String: <br>
 
 Sample RESPONSE JSON String: <br>
 {
+    "isValid":true,
     "erR_CODE": "000",
     "erR_MSG": ""
 }
@@ -93,3 +95,39 @@ Sample RESPONSE JSON String: <br>
 [003] - Invalid Payment. Payment exceeds the current balance for this Account. <br>
 [004] - Account already closed. Unable to Post Payment.
 
+# Code Architecture <br>
+<b>bpsAPI </b><br>
+Project wherein the API post and request are found.
+
+<b>bpsModels </b><br>
+Project wherein the API post and request are found.
+
+
+# Test Scenarios
+Scenario 1
+Posting of Account:
+![alt text](https://github.com/jmestremadura/bpsAPI/blob/master/bpsAPI/_images/1.jpg?raw=true)
+
+Scenario 2
+Posting of Account with the same account number:
+![alt text](https://github.com/jmestremadura/bpsAPI/blob/master/bpsAPI/_images/2.jpg?raw=true)
+
+Scenario 3
+Posting of Payment to a specific account number:
+![alt text](https://github.com/jmestremadura/bpsAPI/blob/master/bpsAPI/_images/3.jpg?raw=true)
+
+Scenario 4
+Posting of Payment exceeding the current balance:
+![alt text](https://github.com/jmestremadura/bpsAPI/blob/master/bpsAPI/_images/4.jpg?raw=true)
+
+Scenario 5
+Posting of Payment to a non existing account number:
+![alt text](https://github.com/jmestremadura/bpsAPI/blob/master/bpsAPI/_images/5.jpg?raw=true)
+
+Scenario 6
+Viewing of Payments made to an Account:
+![alt text](https://github.com/jmestremadura/bpsAPI/blob/master/bpsAPI/_images/6.jpg?raw=true)
+
+Scenario 7
+Viewing of Payments if the total balance has been settled:
+![alt text](https://github.com/jmestremadura/bpsAPI/blob/master/bpsAPI/_images/7.jpg?raw=true)
