@@ -97,10 +97,20 @@ Sample RESPONSE JSON String: <br>
 
 # Code Architecture <br>
 <b>bpsAPI </b><br>
-Project wherein the API post and request are found.
+Project wherein the API post and request are found.<br>
+The API primarily provides JSON string response if the transaction is successful as seen below:<br>
+{
+    "isValid":true,
+    "erR_CODE": "000",
+    "erR_MSG": ""
+}
+
 
 <b>bpsModels </b><br>
-Project wherein the API post and request are found.
+Project wherein models are defined to be used by the different projects. (bpsAPI and bpsAPISrv)
+
+<b>bpsAPISrv </b><br>
+Project wherein the business objects, validation and database (thru EF Core) interaction takes place.
 
 
 # Test Scenarios
