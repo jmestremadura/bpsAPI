@@ -39,8 +39,8 @@ This service will post a payment on a speciic account number generated in Genera
 Sample REQUEST JSON String: <br>
 
 {
-  "acctnumber":"001",
-  "paymentamount":"300"
+  "acctnumber":100,
+  "paymentamount": "800"
 }
 
 Sample RESPONSE JSON String: <br>
