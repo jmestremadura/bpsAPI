@@ -1,9 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-
-
-namespace bpsAPI.Models
+namespace bpsAPIModels.Models
 {
     public class Payments
     {

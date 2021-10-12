@@ -1,13 +1,11 @@
 ﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 
-
-namespace bpsAPI.Models
+namespace bpsAPIModels.Models
 {
     public class Accounts
     {
         public long Id { get; set; }
-        public long AcctNumber { get; set; }    
+        public long AcctNumber { get; set; }
         public string AcctName { get; set; }
         public decimal AcctBalance { get; set; }
         public string AcctStatus { get; set; }
@@ -15,6 +13,4 @@ namespace bpsAPI.Models
 
         public virtual ICollection<Payments> PaymentList { get; set; }
     }
-
-
 }
